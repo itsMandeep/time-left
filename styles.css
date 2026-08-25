@@ -23,7 +23,9 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter,
+    sans-serif;
   letter-spacing: 0;
 }
 
@@ -31,11 +33,12 @@ body {
   min-height: 100svh;
   display: grid;
   place-items: center;
-  padding: max(20px, env(safe-area-inset-top)) 18px max(20px, env(safe-area-inset-bottom));
+  padding: max(20px, env(safe-area-inset-top)) 18px
+    max(20px, env(safe-area-inset-bottom));
 }
 
 .widget {
-  width: min(100%, 390px);
+  width: min(100%, 420px);
   min-height: 520px;
   display: flex;
   flex-direction: column;

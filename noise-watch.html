@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Day Left" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>Noise Watch Countdown</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="noise-watch.css?v=8" />
+  </head>
+  <body>
+    <main class="watch-stage">
+      <section class="watch-face" aria-label="Countdown watch face">
+        <div class="ring day-ring" aria-hidden="true"></div>
+        <div class="ring minute-ring" aria-hidden="true"></div>
+
+        <div class="face-content">
+          <!-- <div class="date-pill">
+            <span id="watchDate">--</span>
+            <span id="watchMonth">--</span>
+          </div> -->
+
+          <div class="top-half">
+            <div class="minutes-block">
+              <span id="watchMinutes" class="watch-number flip">---</span>
+              <span id="watchMinutesText" class="watch-minutes-text">Mins</span>
+            </div>
+          </div>
+
+          <div class="bottom-row">
+            <div class="mini-stat">
+              <span id="watchDays" class="small-number flip">---</span>
+              <span class="small-label">days</span>
+            </div>
+            <div class="mini-stat">
+              <span id="watchClock" class="small-number">--:--</span>
+              <span class="small-label">new day</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="noise-watch.js?v=8"></script>
+  </body>
+</html>

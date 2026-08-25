@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="466" viewBox="0 0 466 466">
+  <circle cx="233" cy="233" r="233" fill="#000"/>
+  <circle cx="233" cy="233" r="225" fill="#050505" stroke="#ffffff" stroke-opacity=".13"/>
+  <circle cx="233" cy="132" r="156" fill="#101014" opacity=".72"/>
+  <circle cx="233" cy="233" r="209" fill="none" stroke="#ffffff" stroke-opacity=".1" stroke-width="10"/>
+  <circle cx="233" cy="233" r="209" fill="none" stroke="#0a84ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="950 1313" transform="rotate(-90 233 233)"/>
+  <circle cx="233" cy="233" r="174" fill="none" stroke="#ffffff" stroke-opacity=".1" stroke-width="7"/>
+  <circle cx="233" cy="233" r="174" fill="none" stroke="#30d158" stroke-width="7" stroke-linecap="round" stroke-dasharray="386 1093" transform="rotate(-90 233 233)"/>
+  <rect x="144" y="67" width="178" height="36" rx="18" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".1"/>
+  <text x="166" y="91" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="17" font-weight="700">Tue 25</text>
+  <text x="300" y="91" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="17" font-weight="700" text-anchor="end">Aug</text>
+  <text x="233" y="230" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="92" font-weight="750" text-anchor="middle">440</text>
+  <text x="292" y="230" fill="#0a84ff" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="24" font-weight="750">min</text>
+  <text x="233" y="275" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="21" font-weight="750" text-anchor="middle">LEFT TODAY</text>
+  <line x1="138" x2="328" y1="329" y2="329" stroke="#ffffff" stroke-opacity=".14"/>
+  <text x="138" y="370" fill="#30d158" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="33" font-weight="750">240</text>
+  <text x="138" y="396" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14" font-weight="700">DAYS LEFT</text>
+  <text x="328" y="370" fill="#30d158" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="33" font-weight="750" text-anchor="end">07:20</text>
+  <text x="328" y="396" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14" font-weight="700" text-anchor="end">NEW DAY</text>
+</svg>
