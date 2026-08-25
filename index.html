@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Time Left">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Time Left</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell" aria-label="Time left today and this year">
+      <section class="widget" aria-live="polite">
+        <div class="date-row">
+          <span id="monthLabel">Today</span>
+          <span id="dayLabel">--</span>
+        </div>
+
+        <div class="metric primary">
+          <span class="label">Minutes left today</span>
+          <div class="number-wrap">
+            <span id="minutesLeft" class="number flip">---</span>
+            <span class="unit">Minutes</span>
+          </div>
+        </div>
+
+        <div class="metric">
+          <span class="label">Days left this year</span>
+          <div class="number-wrap compact">
+            <span id="daysLeft" class="number flip">---</span>
+            <span class="unit">Days</span>
+          </div>
+        </div>
+
+        <div class="metric subtle">
+          <span class="label">New day starts in</span>
+          <span id="clockLeft" class="small-count">--:--</span>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
