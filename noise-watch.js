@@ -71,6 +71,7 @@ function tickValue(node, value, previousValue) {
 }
 
 function renderWatch() {
+  // TODO
   const now = new Date();
   const minutes = minutesLeft(now);
   const days = daysLeft(now);
